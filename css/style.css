@@ -1,0 +1,52 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(248, 248, 66);
+}
+
+#sub-title {
+    font-size: small;
+    color: #9e9991;
+    margin-top: 38px;
+    margin-left: 4px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.greeting {
+    text-align: center;
+}
+
+section {
+    border: solid 1px;
+    border-color: rgb(248, 248, 66);
+}
+
+.counting {
+    display: block;
+    background-color: rgb(248, 248, 66);
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#formula {
+    text-align: center;
+    font-weight: bold;
+}
+
+#counter {
+    outline: none;
+    border-radius: 4px;
+    padding: 10px;
+}
