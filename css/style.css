@@ -57,13 +57,40 @@ img {
     font-weight: bold;
 }
 
+.countsect {
+    display: flex;
+    flex-direction: column;
+}
+
 #counter {
+    margin-top: 20px;
     outline: none;
     border: solid #bbbab8 2px;
     border-radius: 4px;
     padding: 8px;
+    
 }
 
 #counter:focus {
     border: solid #919191 2px;
+}
+
+#countlabel {
+    text-align: center;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#enter {
+    margin-top: 20px;
+    color: black;
+    background-color: rgb(104, 255, 104);
+}
+
+#reset {
+    margin-top: 20px;
 }
