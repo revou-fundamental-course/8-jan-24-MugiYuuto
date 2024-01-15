@@ -1,11 +1,20 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
 }
 
 header {
     display: flex;
     justify-content: center;
-    background-color: rgb(248, 248, 66);
+    background-color: rgb(214, 214, 0);
+}
+
+.pages {
+    background-color: #ffffff;
+    border: solid 1px;
+    border-color: rgb(179, 179, 179);
+    width: 98%;
+    margin-left: 10px;
 }
 
 #sub-title {
@@ -23,14 +32,17 @@ h1 {
     text-align: center;
 }
 
-section {
+.insertsect {
+    background-color: #ffffff;
     border: solid 1px;
-    border-color: rgb(248, 248, 66);
+    border-color: rgb(214, 214, 0);
+    width: 98%;
+    margin-left: 10px;
 }
 
 .counting {
     display: block;
-    background-color: rgb(248, 248, 66);
+    background-color: rgb(214, 214, 0);
     text-align: center;
 }
 
@@ -47,6 +59,11 @@ img {
 
 #counter {
     outline: none;
+    border: solid #bbbab8 2px;
     border-radius: 4px;
-    padding: 10px;
+    padding: 8px;
+}
+
+#counter:focus {
+    border: solid #919191 2px;
 }
