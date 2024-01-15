@@ -38,6 +38,8 @@ h1 {
     border-color: rgb(214, 214, 0);
     width: 98%;
     margin-left: 10px;
+    margin-bottom: 15px;
+    
 }
 
 .counting {
@@ -52,7 +54,7 @@ img {
     margin-right: auto;
 }
 
-#formula {
+#formulakel {
     text-align: center;
     font-weight: bold;
 }
@@ -60,9 +62,11 @@ img {
 .countsect {
     display: flex;
     flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-#counter {
+#counterkel {
     margin-top: 20px;
     outline: none;
     border: solid #bbbab8 2px;
@@ -71,11 +75,11 @@ img {
     
 }
 
-#counter:focus {
+#counterkel:focus {
     border: solid #919191 2px;
 }
 
-#countlabel {
+#countkel {
     text-align: center;
     font-weight: bold;
 }
@@ -85,12 +89,105 @@ img {
     justify-content: center;
 }
 
-#enter {
+#enterkel {
     margin-top: 20px;
-    color: black;
+    margin-right: 20px;
+    color: rgb(0, 0, 0);
     background-color: rgb(104, 255, 104);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 30px;
+    cursor: pointer;
 }
 
-#reset {
+#enterkel:hover {
+    background-color: rgb(78, 185, 78);
+}
+
+#enterkel:active {
+    background-color: rgb(55, 133, 55);
+    transform: translateY(2px);
+}
+
+#resetkel {
     margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    background-color: rgb(235, 152, 0);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#resetkel:hover {
+    background-color: rgb(255, 67, 67);
+}
+
+#resetkel:active {
+    background-color: rgb(175, 45, 45);
+    transform: translateY(2px);
+}
+
+#formulaluas {
+    text-align: center;
+    font-weight: bold;
+}
+
+#counterluas {
+    margin-top: 20px;
+    outline: none;
+    border: solid #bbbab8 2px;
+    border-radius: 4px;
+    padding: 8px;
+    
+}
+
+#counterluas:focus {
+    border: solid #919191 2px;
+}
+
+#countluas {
+    text-align: center;
+    font-weight: bold;
+}
+
+#enterluas {
+    margin-top: 20px;
+    margin-right: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(104, 255, 104);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+#enterluas:hover {
+    background-color: rgb(78, 185, 78);
+}
+
+#enterluas:active {
+    background-color: rgb(55, 133, 55);
+    transform: translateY(2px);
+}
+
+#resetluas {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    background-color: rgb(235, 152, 0);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#resetluas:hover {
+    background-color: rgb(255, 67, 67);
+}
+
+#resetluas:active {
+    background-color: rgb(175, 45, 45);
+    transform: translateY(2px);
 }
