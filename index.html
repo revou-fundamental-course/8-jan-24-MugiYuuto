@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="css/style.css">
         <title>Katik</title>
+        <script src="./js/script.js"></script>
     </head>
     <body>
         <header>
@@ -13,28 +14,28 @@
         <section class="pages">
             <h1>Welcome to Katik</h1>
                 <div class="greeting">Hai Semuanya, Selamat datang di Katik</div>
-                <div class="greeting">Web app sederhana yang akan membantu kalian menghitung nilai Luas dan Keliling sebuah Persegi.</div>
+                <div class="greeting">
+                    Web app sederhana yang akan membantu kalian menghitung nilai Luas dan Keliling sebuah Persegi.
+                </div>
                 <div class="greeting">terima kasih dan semoga membantu.</div>
             <br>
             <section class="insertsect">
                 <h1 class="counting">Keliling Persegi</h1>
                 <img src="https://img.inews.co.id/media/822/files/inews_new/2022/10/24/rumus_keliling_persegi.jpg" alt="persegi" width="300" height="200">
                 <br>
-                <p>Rumus Keliling Persegi:</p>
                 <div id="formulakel">K = 4 x s</div>
-                <div>K = Keliling</div>
-                <div>S = Sisi</div>
-                <br>
-                <br>
+                <p>Rumus Keliling Persegi:</p>
+                <div class="keterangan">K = Keliling</div>
+                <div class="keterangan">S = Sisi</div>
                 <br>
                 <br>
                 <div class="countsect">
-                    <label for="counter" id="countkel">Hitung Keliling Persegi</label>
-                    <input type="number" id="counterkel" placeholder="Hasil">
+                    <label for="counterkel" id="countkel">Hitung Keliling Persegi</label>
+                    <input type="number" id="counterkel" placeholder="Sisi">
                 </div>
                 <div class="buttons">
-                    <button id="enterkel">Hitung</button>
-                    <button id="resetkel">Ulang</button>
+                    <button class="enter">Hitung</button>
+                    <button class="reset">Reset</button>
                 </div>
             </section>
             <br>
@@ -42,23 +43,26 @@
                 <h1 class="counting">Luas Persegi</h1>
                 <img src="https://img.inews.co.id/media/822/files/inews_new/2022/10/24/rumus_keliling_persegi.jpg" alt="persegi" width="300" height="200">
                 <br>
-                <p>Rumus Luas Persegi:</p>
                 <div id="formulaluas">L = s x s</div>
-                <div>L = Luas</div>
-                <div>S = Sisi</div>
-                <br>
-                <br>
+                <p>Rumus Luas Persegi:</p>
+                <div class="keterangan">L = Luas</div>
+                <div class="keterangan">S = Sisi</div>
                 <br>
                 <br>
                 <div class="countsect">
-                    <label for="counter" id="countluas">Hitung Luas Persegi</label>
-                    <input type="number" id="counterluas" placeholder="Hasil">
+                    <label for="counterluas" id="countluas">Hitung Luas Persegi</label>
+                    <input type="number" id="counterluas" placeholder="Sisi">
                 </div>
                 <div class="buttons">
-                    <button id="enterluas">Hitung</button>
-                    <button id="resetluas">Ulang</button>
+                    <button class="enter">Hitung</button>
+                    <button class="reset">Reset</button>
                 </div>
             </section>
         </section>
+        <footer>
+            <br>
+            <br>
+            <br>
+        </footer>
     </body>
 </html>

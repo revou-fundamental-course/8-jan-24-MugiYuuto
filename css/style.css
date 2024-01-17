@@ -1,5 +1,5 @@
 html {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     background-color: #f0f0f0;
 }
 
@@ -35,23 +35,34 @@ h1 {
 .insertsect {
     background-color: #ffffff;
     border: solid 1px;
+    border-top: none;
     border-color: rgb(214, 214, 0);
     width: 98%;
     margin-left: 10px;
     margin-bottom: 15px;
-    
+    padding-bottom: 200px;
 }
 
 .counting {
-    display: block;
+    display: flex;
     background-color: rgb(214, 214, 0);
-    text-align: center;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+p {
+    margin-left: 20px;
+}
+
+.keterangan {
+    margin-left: 20px;
 }
 
 #formulakel {
@@ -62,8 +73,8 @@ img {
 .countsect {
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 #counterkel {
@@ -89,7 +100,7 @@ img {
     justify-content: center;
 }
 
-#enterkel {
+.enter {
     margin-top: 20px;
     margin-right: 20px;
     color: rgb(0, 0, 0);
@@ -98,18 +109,21 @@ img {
     border-radius: 4px;
     padding: 10px 30px;
     cursor: pointer;
+    font-weight: bold;
 }
 
-#enterkel:hover {
+.enter:hover {
     background-color: rgb(78, 185, 78);
+    font-weight: bold;
 }
 
-#enterkel:active {
+.enter:active {
     background-color: rgb(55, 133, 55);
     transform: translateY(2px);
+    font-weight: bold;
 }
 
-#resetkel {
+.reset {
     margin-top: 20px;
     margin-left: 20px;
     color: white;
@@ -118,15 +132,18 @@ img {
     border-radius: 4px;
     padding: 10px 20px;
     cursor: pointer;
+    font-weight: bold;
 }
 
-#resetkel:hover {
+.reset:hover {
     background-color: rgb(255, 67, 67);
+    font-weight: bold;
 }
 
-#resetkel:active {
+.reset:active {
     background-color: rgb(175, 45, 45);
     transform: translateY(2px);
+    font-weight: bold;
 }
 
 #formulaluas {
@@ -152,42 +169,8 @@ img {
     font-weight: bold;
 }
 
-#enterluas {
+footer {
+    display: flex;
+    background-color: rgb(214, 214, 0);
     margin-top: 20px;
-    margin-right: 20px;
-    color: rgb(0, 0, 0);
-    background-color: rgb(104, 255, 104);
-    border: none;
-    border-radius: 4px;
-    padding: 10px 30px;
-    cursor: pointer;
-}
-
-#enterluas:hover {
-    background-color: rgb(78, 185, 78);
-}
-
-#enterluas:active {
-    background-color: rgb(55, 133, 55);
-    transform: translateY(2px);
-}
-
-#resetluas {
-    margin-top: 20px;
-    margin-left: 20px;
-    color: white;
-    background-color: rgb(235, 152, 0);
-    border: none;
-    border-radius: 4px;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-#resetluas:hover {
-    background-color: rgb(255, 67, 67);
-}
-
-#resetluas:active {
-    background-color: rgb(175, 45, 45);
-    transform: translateY(2px);
 }
